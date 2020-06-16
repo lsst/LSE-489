@@ -1,4 +1,4 @@
-.. image:: https://img.shields.io/badge/lse--489-lsst.io-brightgreen.svg
+.. image:: https://img.shields.io/badge/lse-489-lsst.io-brightgreen.svg
    :target: https://lse-489.lsst.io
 .. image:: https://travis-ci.org/lsst/lse-489.svg
    :target: https://travis-ci.org/lsst/lse-489
@@ -15,7 +15,7 @@ The Rubin Observatory project-wide documentation working group
 Links
 =====
 
-- Live drafts: https://lse-489-146.lsst.io
+- Live drafts: https://lse-489.lsst.io
 - GitHub: https://github.com/lsst/lse-489
 
 Build
