@@ -1,0 +1,120 @@
+\documentclass[SE,authoryear,toc]{lsstdoc}
+% lsstdoc documentation: https://lsst-texmf.lsst.io/lsstdoc.html
+\input{meta}
+
+% Package imports go here.
+\usepackage{hyperref}
+
+
+% Local commands go here.
+\newcommand{\cvd}{COVID-19\,}
+\newcommand{\qa}{Q\&A\,}
+\setcounter{secnumdepth}{2}
+
+
+%If you want glossaries
+%\input{aglossary.tex}
+%\makeglossaries
+
+\title[Documentation Working Group Charge]{Charge to the Project-Wide Documentation Working Group}
+
+% Optional subtitle
+% \setDocSubtitle{A subtitle}
+
+\author{%
+Leanne Guy, Chuck Claver, Patrick Ingraham, Austin Roberts
+}
+
+\setDocRef{LSE-489}
+\setDocUpstreamLocation{\url{https://github.com/lsst/LSE-489}}
+
+\date{\vcsDate}
+
+% Optional: name of the document's curator
+% \setDocCurator{The Curator of this Document}
+
+\setDocAbstract{%
+This document provides the charge to the working group tasked with mapping a pathway from the Project's current documentation state to the final deliverable documentation that will become part of the record of completeness and . }
+
+% Change history defined here.
+% Order: oldest first.
+% Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
+% See LPM-51 for version number policy.
+\setDocChangeRecord{%
+  \addtohist{1}{2020-03-24}{First draft.}{Leanne Guy}
+}
+
+
+\begin{document}
+
+% Create the title page.
+\maketitle
+% Frequently for a technote we do not want a title page  uncomment this to remove the title page and changelog.
+% use \mkshorttitle to remove the extra pages
+% \mkshorttitle 
+% ADD CONTENT HERE
+% You can also use the \input command to include several content files.
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\section{Introduction} 
+
+This working group is charged with mapping a pathway from the Project's current documentation state to the final deliverable documentation that will become part of the record of completeness. Every effort should be made to ensure that the final deliverable construction documentation is in an operations-ready state. For this reason, the working group will consist of members from both construction project and early operations team.
+
+\section{Objectives, Scope and Charge}
+\begin{enumerate}
+\item The working group shall establish and propose requirements for what documents are to be presented to establish construction completeness and operations readiness.  This shall be done in consultation with the Early Pre Operations Team.
+\item The working group shall conduct a survey of existing documentation repositories on the project and provide a roadmap for what content is stored in each repository.  This includes but is not limited to:
+\begin{enumerate}
+\item Formal project controlled documentation - e.g. LPM, LSE, LDM, LSE and LCA documents;
+\item Engineering models and drawings;
+\item Operational software code;
+\item Change Control record, including non-compliance LCRs;
+\item Technical notes from subsystems - e.g. lsst.io;
+\item Informal documents - e.g. Confluence and others in Docushare;
+\item Databases - e.g. MagicDraw and JIRA, eTraveller, etc. 
+\item Verification documentation;
+\item Operational and maintenance procedures documentation; and
+\end{enumerate} 
+\item The working group shall develop and propose a refined documentation strategy, covering all the documentation types, that would define the Project deliverable demonstrating completeness to operations.  Part of the documentation strategy shall be a clear definition of the normative source (e.g. the source of truth) for each document category.
+\item The working group shall provide a tiered approach for what documentation related to demonstrating completeness of the construction project needs to be included in the final deliverable package -e.g. minimum required, objective target, extended goals.
+\item The working group shall propose a workflow, implementation plan and timeline to migrate Project documentation deliverables to conform with the documentation strategy in 3). The timeline should envisage completion of  implementation  prior to the end of construction and handoff to operations.  A distinction shall be made between "static" controlled documents and those that are intended to evolve in time through the end of construction and into operations.  Define an implementation plan and timeline for the proposed strategy. 
+\item Based on required input from each subsystem, SIT-COM and the Project Office, the working group shall provide an assessment of the resources needed to meet the objectives defined by items 2, 3 and 4.  This includes resources for implementation and population of data into a system.  This includes personnel, contracted services (if necessary) and system procurements.
+ \item The working group shall provide a risk assessment for not meeting requirements for each tier in the document package.
+\end{enumerate}
+
+\section{Working Group Members}
+
+To Be Confirmed
+
+\section{Reporting, Timeline and Schedule}
+Phase 1: Establish the WG and provide to the Construction and Operations Projects' senior management a set of proposed documentation requirements, prior to the JDR.
+
+Phase 2: The working group is requested to provide an interim report to the Project office 1 week prior to the Rubin Observatory JSR detailing their initial findings. 
+
+Phase 2a:  Each subsystem is to report on the status of their documentation based on the criteria established by the WG (reporting is due post JSR).
+
+Phase 3: At the conclusion of the working group (, the group is requested to provide a written report to the Project Office detailing their major recommendations.  The report
+should contain the consensus of the working group's findings, comments and recommendations together with a concrete plan addressing construction documentation.  This phase should be completed prior to a Project re-baseline following the COVID-19 impacts - circa September-October 2020
+
+A separate stand-alone report shall be produced detailing the existing documentation landscape for further reference.
+
+\section{Useful Links and Previous Work}
+
+
+\section{Tasks for Rubin Construction Project Subsystems}
+From the working group recommendations for which content repositories from item 1 shall be brought into a formal deliverable for the end of construction, each subsystems shall to be tasked with identifying specific content as deliverables to met the objectives outlined here.
+\appendix
+% Include all the relevant bib files.
+% https://lsst-texmf.lsst.io/lsstdoc.html#bibliographies
+\section{References} 
+\label{sec:bib}
+\bibliography{local,lsst,lsst-dm,refs_ads,refs,books}
+
+% Make sure lsst-texmf/bin/generateAcronyms.py is in your path
+\section{Acronyms} \label{sec:acronyms}
+\input{acronyms.tex}
+% If you want glossary uncomment below -- comment out the two lines above
+\printglossaries
+
+
+\end{document}
