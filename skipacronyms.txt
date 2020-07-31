@@ -1,0 +1,16 @@
+# List acronyms that should be ignored by generateAcronyms.py.
+PATH
+MM
+DD
+YYYY
+Z
+AS
+I
+http
+p
+s
+A
+TN
+RAW2020
+PDT
+EDT

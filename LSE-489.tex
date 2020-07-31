@@ -1,0 +1,157 @@
+\documentclass[SE,authoryear,toc]{lsstdoc}
+% lsstdoc documentation: https://lsst-texmf.lsst.io/lsstdoc.html
+\input{meta}
+
+% Package imports go here.
+\usepackage{hyperref}
+
+
+% Local commands go here.
+\newcommand{\cvd}{COVID-19\,}
+\newcommand{\qa}{Q\&A\,}
+\setcounter{secnumdepth}{2}
+
+
+%If you want glossaries
+%\input{aglossary.tex}
+%\makeglossaries
+
+\title[Documentation Working Group Charge]{Charge to the Project-Wide Documentation Working Group}
+
+% Optional subtitle
+% \setDocSubtitle{A subtitle}
+
+\author{%
+Bob Blum, \v{Z}eljko Ivezi\'c, Steve Kahn, Victor Krabbendam
+}
+
+\setDocRef{LSE-489}
+\setDocUpstreamLocation{\url{https://github.com/lsst/LSE-489}}
+
+\date{\vcsDate}
+
+% Optional: name of the document's curator
+% \setDocCurator{The Curator of this Document}
+
+\setDocAbstract{%
+This document provides the charge to the working group tasked with mapping a pathway from the Project's current documentation state to the final deliverable documentation that will become part of the record of completeness.}
+
+% Change history defined here.
+% Order: oldest first.
+% Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
+% See LPM-51 for version number policy.
+\setDocChangeRecord{%
+  \addtohist{1}{2020-03-24}{First draft.}{Leanne Guy, incorporating input from Chuck Claver, Patrick Ingraham, Austin Roberts}
+}
+
+
+\begin{document}
+
+% Create the title page.
+\maketitle
+% Frequently for a technote we do not want a title page  uncomment this to remove the title page and changelog.
+% use \mkshorttitle to remove the extra pages
+% \mkshorttitle 
+% ADD CONTENT HERE
+% You can also use the \input command to include several content files.
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\section{Introduction} 
+
+This working group is charged with mapping a pathway from the Project's current documentation state to the final deliverable documentation that will become part of the record of completeness. Every effort should be made to ensure that the final deliverable construction documentation is in an operations-ready state. For this reason, the working group will consist of members from both construction project and early operations team.
+
+\section{Objectives, Scope and Charge}
+\begin{enumerate}
+\item The working group shall establish and propose requirements for what documents are to be presented to establish construction completeness and operations readiness.  This shall be done in consultation with the early pre-operations Team.
+\item  The working group shall conduct a survey of existing documentation repositories on the project and provide a roadmap for what content is stored in each repository.  This includes but is not limited to:
+	\begin{enumerate}
+    		\item Formal project controlled documentation, e.g. LPM, LSE, LDM, LSE and LCA documents.
+    		\item Engineering models and drawings.
+    		\item Operational software code.
+   		\item Change Control record, including non-compliance LCRs.
+    		\item Technical notes from subsystems, e.g. lsst.io.
+    		\item Informal documents, e.g. Confluence and others in Docushare.
+    		\item Databases, e.g. MagicDraw and JIRA, eTraveller, etc. 
+    		\item Verification documentation.
+    		\item Operational and maintenance procedures documentation.
+	\end{enumerate} 
+\item {The working group shall develop and propose a refined documentation strategy, covering all the documentation types, that would define the Project deliverable demonstrating completeness to operations.
+Part of the documentation strategy shall be a clear definition of the normative source (e.g. the source of truth) for each document category.}
+\item {The working group shall provide a tiered approach for what documentation related to demonstrating completeness of the construction project needs to be included in the final deliverable package, e.g. minimum required, objective target, extended goals.}
+\item{The working group shall propose a workflow, implementation plan and timeline to migrate Project documentation deliverables to conform with the documentation strategy in 3. 
+The timeline should envisage completion  of implementation prior to the end of construction and handoff to operations.
+A distinction shall be made between static controlled documents and those that are intended to evolve in time through the end of construction and into operations. }
+\item {Based on required input from each subsystem, SIT-COM and the Project Office, the working group shall provide an assessment of the resources needed to meet the objectives defined by items 2, 3 and 4.
+This includes resources for implementation and population of data into a system.
+This includes personnel, contracted services (if necessary) and system procurements.}
+\item{The working group shall provide a risk assessment for not meeting requirements for each tier in the document package.}
+\end{enumerate}
+
+Any policies and administrative  procedures are out of scope for this working group
+
+\section{Working Group Members}
+ 
+To Be Confirmed 
+
+\section{Reporting, Timeline and Schedule}
+The working group shall carry out it's charge following four clearly defined phases, as detailed below: 
+
+\paragraph{Phase 1:} Establish the working group 
+\begin{enumerate}
+\item  Provide a set of proposed documentation requirements to the Construction and Operations Projects' senior management  prior to 31 August, 2020 in preparation for the Joint Status Review (JSR) 2020.  
+\end{enumerate}
+
+\paragraph{Phase 2:} Develop a project-wide documentation roadmap 	
+\begin{enumerate}
+\item Develop a set of proposed documentation requirements by 30 September 30, 2020. 
+\item Develop a roadmap of existing documentation by 30 September 30, 2020.
+\item Provide an interim report to the Project office no later than 15 October, 2020 summarizing their initial findings. 
+\end{enumerate}
+
+\paragraph{Phase 3:} Assessment of LSST sub-system documentation status
+\begin{enumerate}
+\item  Each subsystem is to report to this working group on the status of their documentation based on the criteria established by the working group no later than 30 November 2020. 
+\end{enumerate}
+
+\paragraph{Phase 4:} Close-out and working group recommendations 
+\begin{enumerate}
+\item Provide a written report to the Project Office detailing the major recommendations.  The report should contain the consensus of the working group's findings, comments and recommendations together with a concrete plan addressing construction documentation.   
+\item This final phase should be completed prior to a Project re-baseline following the COVID-19 impacts.
+\end{enumerate}
+
+A separate stand-alone report shall be produced detailing the existing documentation landscape for further reference.
+
+\section{Useful Links and Previous Work}
+
+\begin{tabular}[htb]{l l}
+\citeds{LPM-51} & Document Management Plan \\
+\citeds{TSTN-021} & Observatory User-Documentation Working Group Charge \\
+\citeds{LDM-493} & Data Management Documentation Architecture \\
+\end{tabular}
+
+\section{Tasks for Rubin Construction Project Subsystems}
+From the working group recommendations for which content repositories from item 1 shall be brought into a formal deliverable for the end of construction, each subsystems shall to be tasked with identifying specific content as deliverables to met the objectives outlined here.
+
+\appendix
+\section{Additional points of consideration}
+The following are additional points that the working group should ensure are addressed but which do not warrant inclusion as separate charge questions:
+
+\begin{itemize}
+\item What are the relevant distribution licenses for the various types of documentation and source code?
+\item What are the relevant export compliance (ITAR/EAR) restrictions for the various types of documentation and source code?
+\end{itemize}
+
+% Include all the relevant bib files.
+% https://lsst-texmf.lsst.io/lsstdoc.html#bibliographies
+\section{References} 
+\label{sec:bib}
+\bibliography{local,lsst,lsst-dm,refs_ads,refs,books}
+
+% Make sure lsst-texmf/bin/generateAcronyms.py is in your path
+\section{Acronyms} \label{sec:acronyms}
+\input{acronyms.tex}
+% If you want glossary uncomment below -- comment out the two lines above
+\printglossaries
+
+
+\end{document}
